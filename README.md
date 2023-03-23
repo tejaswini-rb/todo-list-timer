@@ -1,3 +1,21 @@
+# Pomodoro Productivity App!
+
+The Pomodoro Technique is used for time management, in which intervals of productivity (typically 25 min long) are separated by short breaks. This technique is helpful because it encourages focus, as it creates urgency for you to finish the task within the time limit. With this app, you can set a timer using your own intervals for focused work. Simply type in the number of minutes and click start.
+
+This project was created using [React](https://legacy.reactjs.org/), a java script library, and [NPM](https://www.npmjs.com/), a package manager for javascript softwares. I used this tutorial by [Xtina](https://github.com/xtina-park/pomodoro-app) for guidance and inspiration.
+
+As this app is run locally, here is what the user should install to best run this project:
+* create-react-app
+* jquery
+* styled-components
+* react-hook-form
+* react-confetti
+* use-sound
+
+
+Happy working!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

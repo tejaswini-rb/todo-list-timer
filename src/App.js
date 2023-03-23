@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Form from './components/Form';
+import Timer from './components/Timer';
+import Finished from './components/Finished';
+import styled from 'styled-components';
+import backgroundImage from './wallpapers/forest.jpeg';
+
+
+const AppWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+const styles = {
+  backgroundImage: `url(${backgroundImage})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  height: '100vh'
+};
 
 function App() {
+  const [timeLeft, setTimeLeft] = useState(0);
+  const [isPaused, setIsPaused] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles}>
+      <Form setTimeLeft={setTimeLeft} setIsPaused={setIsPaused}/>
+      {timeLeft<0?
+        <AppWrapper>
+        <Finished setTimeLeft={setTimeLeft} setIsPaused={setIsPaused}/>
+        </AppWrapper>:
+        
+        <AppWrapper>
+        <Timer timeLeft={timeLeft} setTimeLeft={setTimeLeft} 
+        isPaused={isPaused} setIsPaused={setIsPaused}/>
+        </AppWrapper>
+      }
     </div>
   );
 }
