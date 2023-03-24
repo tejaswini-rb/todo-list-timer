@@ -1,5 +1,4 @@
 import React,  {useEffect, useRef} from 'react';
-import Block from './Block';
 import styled from 'styled-components';
 
 const Container1 = styled.div`

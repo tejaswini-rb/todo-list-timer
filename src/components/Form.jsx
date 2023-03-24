@@ -18,7 +18,7 @@ const Title = styled.div`
   margin-bottom: 10px;
 
   border: 1px solid #dddddd;
-border-radius: 5px;
+  border-radius: 5px;
 `;
 
 
