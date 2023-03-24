@@ -5,12 +5,14 @@ The Pomodoro Technique is used for time management, in which intervals of produc
 This project was created using [React](https://legacy.reactjs.org/), a java script library, and [NPM](https://www.npmjs.com/), a package manager for javascript softwares. I used this tutorial by [Xtina](https://github.com/xtina-park/pomodoro-app) for guidance and inspiration.
 
 As this app is run locally, here is what the user should install to best run this project:
+* npm (or yarn)
 * create-react-app
 * jquery
 * styled-components
 * react-hook-form
 * react-confetti
 * use-sound
+* These VS Code extensions: styled components by Julien and ES7 React by dsznajder
 
 
 Happy working!
