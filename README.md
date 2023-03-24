@@ -1,8 +1,8 @@
-# Pomodoro Productivity App!
+# PomoTodo Productivity App!
 
-The Pomodoro Technique is used for time management, in which intervals of productivity (typically 25 min long) are separated by short breaks. This technique is helpful because it encourages focus, as it creates urgency for you to finish the task within the time limit. With this app, you can set a timer using your own intervals for focused work. Simply type in the number of minutes and click start.
+It's always satisfying to check off tasks on a to-do list as you complete them. However, finding the motivation and focus to complete these tasks can be difficult. This app allows you to add tasks to a to-do list, and each task can be check-marked when completed. Furthermore, PomoTodo comes with a timer that can be used for the Pomodoro Technique. The Pomodoro Technique is a great strategy for time management, in which intervals of productivity (typically 25 minutes long) are separated by short breaks. This technique is helpful because it encourages focus, creating urgency for you to finish the task within the time limit. With this app, you can set a timer using your own intervals for focused work. Simply type in your tasks, the number of minutes you have to get them done, and click start.
 
-This project was created using [React](https://legacy.reactjs.org/), a java script library, and [NPM](https://www.npmjs.com/), a package manager for javascript softwares. I used this tutorial by [Xtina](https://github.com/xtina-park/pomodoro-app) for guidance and inspiration.
+This project was created using [React](https://legacy.reactjs.org/), a java script library, and [NPM](https://www.npmjs.com/), a package manager for javascript softwares. I used this tutorial by [Xtina](https://github.com/xtina-park/pomodoro-app) for inspiration.
 
 As this app is run locally, here is what the user should install to best run this project:
 * npm (or yarn)
