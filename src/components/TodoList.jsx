@@ -40,8 +40,9 @@ function TodoList() {
 
 const RemoveButton = styled.button`
   font-size: 8px;
+  font-weight: bold;
   color: #ffffff;
-  background-color: #333333c1;
+  background-color: #ffeaea77;
   border: none;
   border-radius: 2px;
   padding: 2px 4px;
@@ -60,6 +61,7 @@ const ToDoItem = styled.li`
   border: 1px solid #dddddd;
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 4px;
 `;
 
 
@@ -81,7 +83,7 @@ return (
               type="checkbox"
               checked={item.done}
               onChange={() => handleCheckboxChange(index)}
-              style={{ marginRight: "8px" }}
+              style={{ marginRight: "8px" , marginTop: "8px"}}
             />
             {item.text}
             <RemoveButton style={{ marginLeft: "8px"}} onClick={() => handleItemRemove(index)}>X</RemoveButton>
