@@ -12,7 +12,7 @@ As this app is run locally, here is what the user should install to best run thi
 * react-hook-form
 * react-confetti
 * use-sound
-* These VS Code extensions: styled components by Julien and ES7 React by dsznajder
+* VS Code extensions: styled components by Julien, and ES7 React by dsznajder
 
 
 Happy working!
